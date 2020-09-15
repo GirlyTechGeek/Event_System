@@ -5,12 +5,9 @@ import Program from './pages/Program';
 import{
   BrowserRouter as Router,
   Route,
-  Link,
-  Switch
 } from 'react-router-dom';
 import './App.css';
 
-//import SocialLogIn from './SocialLogIn';
 
 
 class App extends Component {
@@ -20,8 +17,8 @@ class App extends Component {
         <div className="Body">
           <Route exact path="/" component={LogIn}/>
           <Route exact path="/signup" component={SignUp}/>
+          <Route exact path="/program" component={Program}/>
         </div>
-        {/* <Route exact path="/program" component={Program}/> */}
       </Router>
     );
   }
@@ -30,3 +27,4 @@ class App extends Component {
 
 
 export default App;
+

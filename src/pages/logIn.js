@@ -76,20 +76,7 @@ handleSubmit = (e)=>{
                   <button type="submit" className="FormField__Button mr-20">Login</button> 
               </div>
               <Link to="/signup" className="FormField__Link">Not Signed up yet ? Click here</Link> 
-              {/* <div class="social-container">
-                <h3>SignUp with your Social media platform</h3>
-                <a 
-                   className="facebook social">
-                   <FontAwesomeIcon icon={faFacebook} size="2x" />
-                </a>
-                <a className="twitter social">
-                   <FontAwesomeIcon icon={faTwitter} size="2x" />
-                </a>
-                <a
-                   className="instagram social">
-                   <FontAwesomeIcon icon={faInstagram} size="2x" />
-                </a>
-                </div> */}
+              
             </form>
           </div>
         </div>
